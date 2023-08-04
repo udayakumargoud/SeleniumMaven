@@ -1,8 +1,8 @@
 package com.qa.testcases.LoginTestCases;
 
 import com.qa.base.ApplicationBase;
-import com.qa.pageobjects.homepage.HomePage;
-import com.qa.pageobjects.login.LoginPage;
+import com.qa.pageobjects.HomePage;
+import com.qa.pageobjects.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

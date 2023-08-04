@@ -33,7 +33,7 @@ public class ApplicationBase {
       String browserName = prop.getProperty("browser");
         if(browserName.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver",
-                    "F:\\Selenium\\SeleniumMaven\\src\\main\\java\\com\\qa\\drivers\\chromedriver.exe");
+                    System.getProperty("user.dir")+"/src/main/java/com/qa/drivers/chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
             

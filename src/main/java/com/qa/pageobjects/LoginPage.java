@@ -1,7 +1,7 @@
-package com.qa.pageobjects.login;
+package com.qa.pageobjects;
 
 import com.qa.base.ApplicationBase;
-import com.qa.pageobjects.homepage.HomePage;
+import com.qa.pageobjects.HomePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
